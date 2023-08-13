@@ -1,6 +1,6 @@
-#Docker Short Notes
+# Docker Short Notes #
   
-##Basics of Docker
+## Basics of Docker ##
   
 1. Docker was first released in March 2013. It was developed by Solomon Hykes and Sebastien Paul.
 2. Docker is an open-source centralized platform designed to create, deploy and run applications.
