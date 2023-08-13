@@ -1,0 +1,32 @@
+Docker Short Notes
+  
+**Basics of Docker**
+  
+1. Docker was first released in March 2013. It was developed by Solomon Hykes and Sebastien Paul.
+2. Docker is an open-source centralized platform designed to create, deploy and run applications.
+3. Docker uses the container on the host OS to run applications. It allows applications to use the same Linux Kernal as a system on the host computer, 
+rather than creating a whole virtual OS.
+4. We can install Docker on any OS but the Docker engine runs natively on Linux distribution.
+5. Docker is written in the 'GO' language.
+6. Docker is a tool that performs OS-level virtualisation, also known as containerization.
+7. Before Docker, many users had faced the problem where a particular code ran in the developer's system but not in the user's system.
+
+**Advantages of Docker**
+
+1. No pre-allocation of RAM.
+2. CI Efficiency - Docker enables us to build a container image and use that same image across every step of the deployment process.
+3. Less Cost.
+4. It is light in weight.
+5. It can run a physical hardware, virtual hardware or on cloud.  
+6. You can reuse an image.
+7. It taks very less time to create another container.
+
+**Disadvantages of Docker**
+
+1. Docker is not a good solution for application that requires a rich GUI.
+2. It is difficult ot manage a large number of containers.
+3. Docker does not provide cross-platform compatibility, meaning if an application is designed to run in a docker container on windows, then it can't run on Linux or vice-versa.
+4. Docker is suitable when the development OS and testing OS re the same, if the OS are different, we should use VM.
+5. Docker has no solution for data recovery and backup.
+
+**Note**- When a docker image is in running state, we can call it a container. When it is not running, we can call it a docker image.
