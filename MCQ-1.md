@@ -1,10 +1,10 @@
 # MCQ on Linux, Git, Docker and Jenkins
 
 1. Which of the following statements about the chmod , chown , chgrp , and chdir commands is true?
-   a) chmod changes the owner of a file or directory, while chown modifies the group associated with it.
-   b) chgrp is used to change the current working directory, while chdir alters file permissions.
-   c) chmod alters file or directory permissions, chown changes the owner, chgrp modifies the group, and chdir changes the current working directory.
-   d) chdir changes the owner of a file, while chgrp is used to switch directories.
+   a. chmod changes the owner of a file or directory, while chown modifies the group associated with it.
+   b. chgrp is used to change the current working directory, while chdir alters file permissions.
+   c. chmod alters file or directory permissions, chown changes the owner, chgrp modifies the group, and chdir changes the current working directory.
+   d. chdir changes the owner of a file, while chgrp is used to switch directories.
 
 2. In a typical file permission string -rwxr-xr-- , what does the first - represent?
    a) Read permission
