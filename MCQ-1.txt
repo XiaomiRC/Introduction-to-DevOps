@@ -1,78 +1,78 @@
 # MCQ on Linux, Git, Docker and Jenkins
 
 1. Which of the following statements about the chmod , chown , chgrp , and chdir commands is true?
-   a. chmod changes the owner of a file or directory, while chown modifies the group associated with it.
-   b. chgrp is used to change the current working directory, while chdir alters file permissions.
-   c. chmod alters file or directory permissions, chown changes the owner, chgrp modifies the group, and chdir changes the current working directory.
-   d. chdir changes the owner of a file, while chgrp is used to switch directories.
+   a) chmod changes the owner of a file or directory, while chown modifies the group associated with it.
+   b) chgrp is used to change the current working directory, while chdir alters file permissions.
+   c) chmod alters file or directory permissions, chown changes the owner, chgrp modifies the group, and chdir changes the current working directory.
+   d) chdir changes the owner of a file, while chgrp is used to switch directories.
 
-2. In a typical file permission string -rwxr-xr-- , what does the first - represent?
+3. In a typical file permission string -rwxr-xr-- , what does the first - represent?
    a) Read permission
    b) Write permission
    c) Execute permission
    d) Type of the file
 
-3. Which of the following is a valid field in the /etc/passwd file?
+4. Which of the following is a valid field in the /etc/passwd file?
    a) Password hash
    b) Last login time
    c) Home directory
    d) User's email address
 
-4. Which command can be used to monitor real-time system resource usage?
+5. Which command can be used to monitor real-time system resource usage?
    a) top
    b) ps
    c) lsof
    d) netstat
 
-5. You want to run a Linux command inside an existing Docker container. Which command would you use?
+6. You want to run a Linux command inside an existing Docker container. Which command would you use?
    a) docker exec
    b) docker run
    c) docker ps il
    d) docker commit
 
-6. Which command ensures that a specific service starts automatically at system boot?
+7. Which command ensures that a specific service starts automatically at system boot?
    a) systemctl enable
    b) systemctl start
    c) systemctl boot
    d) systemd enable
 
-7. What is the primary function of the Docker Daemon?
+8. What is the primary function of the Docker Daemon?
    a) To build Docker images
    b) To push images to Docker Hub
    c) To manage Docker containers, images, networks, and volumes
    d) To provide a user interface for Docker
 
-8. Which of the following best describes the primary objective of adopting DevOps practices?
+9. Which of the following best describes the primary objective of adopting DevOps practices?
    a) Solely accelerating software releases.
    b) Maintaining distinct responsibilities between development and operations teams.
    c) Enhancing collaboration between teams, leading to swifter and more reliable software delivery.
    d) Prioritizing only new feature development, overlooking infrastructure needs.
 
-9. Which symbol is used in a cron job definition to represent every instance (e.g., every hour, every day)?
+10. Which symbol is used in a cron job definition to represent every instance (e.g., every hour, every day)?
     a) *
     b) ?
     c) !
     d) #
 
-10. You have files in your repository you don't want Git to ever track them. What should you be doing to avoid ever tracking them?
+11. You have files in your repository you don't want Git to ever track them. What should you be doing to avoid ever tracking them?
     a) Commit them and then use git rm.
     b) Add them to .gitignore.
     c) Use the git untrack command.
     d) Move them out of the repository directory.
 
-11. Which of the following commands will create a new branch and immediately switch to it in Git?
+12. Which of the following commands will create a new branch and immediately switch to it in Git?
     a) git branch [branch-name]
     b) git checkout -b [branch-name]
     c) git checkout [branch-name]
     d) git merge [branch-name]
 
-12. Which of the following sequences best represents a typical workflow in Git?
+13. Which of the following sequences best represents a typical workflow in Git?
     a) git clone, git add, git commit, git push
     b) git pull, git commit, git add, git push
     c) git commit, git add, git clone, git push
     d) git clone, git pull, git commit, git add
 
-13. If you want to save your changes without committing them, then continue working later, which commands would you use?
+14. If you want to save your changes without committing them, then continue working later, which commands would you use?
     a) git stash, git stash apply
     b) git save, git load
     c) git push, git pull
