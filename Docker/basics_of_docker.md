@@ -21,7 +21,7 @@ rather than creating a whole virtual OS.
 6. You can reuse an image.
 7. It taks very less time to create another container.
 
-## Disadvantages of Docker##
+## Disadvantages of Docker
 
 1. Docker is not a good solution for application that requires a rich GUI.
 2. It is difficult ot manage a large number of containers.
