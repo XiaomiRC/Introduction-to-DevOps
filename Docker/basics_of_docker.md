@@ -4,12 +4,13 @@
 
 1. Docker was first released in March 2013. It was developed by Solomon Hykes and Sebastien Paul.
 2. Docker is an open-source centralized platform designed to create, deploy and run applications.
-3. Docker uses the container on the host OS to run applications. It allows applications to use the same Linux Kernal as a system on the host computer, 
+3. Docker uses the container on the host OS to run applications. It allows applications to use the same Linux Kernel as a system on the host computer, 
 rather than creating a whole virtual OS.
 4. We can install Docker on any OS but the Docker engine runs natively on Linux distribution.
 5. Docker is written in the 'GO' language.
 6. Docker is a tool that performs OS-level virtualisation, also known as containerization.
-7. Before Docker, many users had faced the problem where a particular code ran in the developer's system but not in the user's system.
+7. Before Docker existed, at times a code would run on the developer's system but not in the user's system.
+8. Docker is a set of PaaS that uses OS level virtualisation. Whereas, VMware uses hardware level virtualisation.
 
 ## Advantages of Docker
 
@@ -18,21 +19,22 @@ rather than creating a whole virtual OS.
 3. Less Cost.
 4. It is light in weight.
 5. It can run a physical hardware, virtual hardware or on cloud.  
-6. You can reuse an image.
-7. It taks very less time to create another container.
+6. We can reuse an image.
+7. It takes very less time to create another container.
+
+**Note**
+- A Docker image in running state turns into a container and in stop/pause state turns back into an image.
+- Windows 10 is the first Windows version on which docker can be run. However, it runs only on Windows 10 Pro and Enterprise. It is not compatible with Windows 10 Home.
 
 ## Disadvantages of Docker
 
-1. Docker is not a good solution for application that requires a rich GUI.
+1. Docker is not a good solution for application that requires a rich GUI. In such scenarios, it is recommended to use VMware.
 2. It is difficult ot manage a large number of containers.
-3. Docker does not provide cross-platform compatibility, meaning if an application is designed to run in a docker container on windows, then it can't run on Linux or vice-versa.
-4. Docker is suitable when the development OS and testing OS re the same, if the OS are different, we should use VM.
+3. Docker does not provide cross-platform compatibility. Example- if an application has Windows as the host OS at the time of development, it would not run in an environment where the host OS is Linux. The OS has to be Windows.
+4. Docker is suitable when the development OS and testing OS are the same. If the OS are different, we should use VMware.
 5. Docker has no solution for data recovery and backup.
 
-**Note**- When a docker image is in running state, we can call it a container. When it is not running, we can call it a docker image.
-
-
-# Components of Docker 
+# Docker Ecosystem 
 ## Docker Daemon 
 
 1. Docker daemon runs on the host OS.
