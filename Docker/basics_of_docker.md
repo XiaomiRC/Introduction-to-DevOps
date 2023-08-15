@@ -43,28 +43,30 @@ rather than creating a whole virtual OS.
 
 ## Docker Client
 
-1. Docker users can interact with the docker daemon through a client. 
+1. Docker users can interact with the docker daemon/engine through a client.  This client is a CLI.
 2. Docker client uses commands and Rest API to communicate with the docker daemon
-3. When a client runs any server command on the docker client terminca, the client terminal sends the docker commands to the docker daemon.
+3. When a client runs any server command on the docker client terminal, the client terminal sends these docker commands to the docker daemon.
 4. Docker clients can communicate with more than one daemon.
 
-## Docker Host
+## Docker Host(Hardware)
 
-Docker Host is used for providing an environment to execute and run applications. It contains the docker daemon, images, containers, networks, and storage.
+Docker Host is used for providing an environment to execute and run applications. It contains the docker daemon, images, containers, networks, and storages.
 
 ## Docker Hub/Registry
 1. Docker registry manages and stores the docker images.
-2. There are two types of registries in the docker.
-i) Public Registry - It is also called Docker Hub.
-ii) Private Registry - It is used to share images within the enterprise.
+2. There are two types of registries in the docker:
+i) Public Registry(Opensource) - It is also called Docker Hub.
+ii) Private Registry - It is used to share images within an enterprise.
 
 ## Docker Images
 
-Docker images are the read-only binary templates used to create docker containers OR a single file with all dependencies and configurations required to run a program.
+Docker images are the read-only binary templates used to create docker containers.
+OR 
+Image is a single file with all dependencies and configurations required to run a program/container.
 
 ### Ways to create an image
 
-1. Take an image from Docker Hub.
+1. Download an image from Docker Hub.
 2. Create an image from a Docker File.
 3. Create an image from the existing Docker Containers.
 
